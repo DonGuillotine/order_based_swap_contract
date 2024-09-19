@@ -97,8 +97,8 @@ npx hardhat run scripts/deploy.js --network sepolia
 The smart contracts are deployed on the **Sepolia Testnet**. You can interact with the deployed contracts via a front-end or using Hardhat.
 
 - **ERC20 Token Address**:
- - Warzone Token: https://sepolia.etherscan.io/address/0x8da7e2ddd0747b9e1924fA127E37F9B0d8866c31#writeContract
- - Vanguard Token: https://sepolia.etherscan.io/address/0xB73d126e1a62f0c1b26152292ceF917973f8a709#writeContract
+  - Warzone Token: https://sepolia.etherscan.io/address/0x8da7e2ddd0747b9e1924fA127E37F9B0d8866c31#writeContract
+  - Vanguard Token: https://sepolia.etherscan.io/address/0xB73d126e1a62f0c1b26152292ceF917973f8a709#writeContract
 - **OrderBasedSwap Contract Address**: https://sepolia.etherscan.io/address/0x3E9c1df6D9769423B82cd59724c8F6284193f684#writeContract
 
 ### Interact with Deployed Contracts
