@@ -1,13 +1,7 @@
-# Sample Hardhat Project
+# All tests passed
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+![alt text](image.png)
 
-Try running some of the following tasks:
+# I added additional test cases and scenarios
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
-```
+![alt text](image-1.png)
