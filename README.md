@@ -86,25 +86,25 @@ To deploy to a local Hardhat network:
 npx hardhat run scripts/deploy.js
 ```
 
-To deploy to a specific network (e.g., sepolia testnet):
+To deploy to a specific network (e.g., lisk-sepolia testnet):
 
 ```
-npx hardhat run scripts/deploy.js --network sepolia
+npx hardhat run scripts/deploy.js --network lisk-sepolia
 ```
 
 ## My Deployment
 
-The smart contracts are deployed on the **Sepolia Testnet**. You can interact with the deployed contracts via a front-end or using Hardhat.
+The smart contracts are deployed on the **Lisk Sepolia Testnet**. You can interact with the deployed contracts via a front-end or using Hardhat.
 
 - **ERC20 Token Address**:
   - Warzone Token: https://sepolia.etherscan.io/address/0x8da7e2ddd0747b9e1924fA127E37F9B0d8866c31#writeContract
   - Vanguard Token: https://sepolia.etherscan.io/address/0xB73d126e1a62f0c1b26152292ceF917973f8a709#writeContract
-- **OrderBasedSwap Contract Address**: https://sepolia.etherscan.io/address/0x3E9c1df6D9769423B82cd59724c8F6284193f684#writeContract
+- **OrderBasedSwap Contract Address**: https://sepolia-blockscout.lisk.com/address/0x05dbB7372f939c3CFFa4EABD31662B031202b38C?tab=write_contract
 
 ### Interact with Deployed Contracts
 
 ```
-npx hardhat run scripts/interact.js --network sepolia
+npx hardhat run scripts/interact.js --network lisk-sepolia
 ```
 
 ## Contract Verification
@@ -112,13 +112,13 @@ npx hardhat run scripts/interact.js --network sepolia
 After deploying to a public network, verify your contract on Etherscan:
 
 ```
-npx hardhat verify --network sepolia DEPLOYED_CONTRACT_ADDRESS
+npx hardhat verify --network lisk-sepolia DEPLOYED_CONTRACT_ADDRESS
 ```
 
 For `DoomEternalToken` contracts:
 
 ```
-npx hardhat verify --network sepolia DUMMY_TOKEN_ADDRESS "Token Name" "TKN" "1000000000000000000000000"
+npx hardhat verify --network lisk-sepolia DUMMY_TOKEN_ADDRESS "Token Name" "TKN" "1000000000000000000000000"
 ```
 
 ## Main Contracts
